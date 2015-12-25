@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent" 
+              android:layout_height="fill_parent" 
+              android:orientation="vertical" 
+              android:padding="10dp"              
+              android:addStatesFromChildren="true">
+
+    <TextView android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image Coordinates:" />
+    <TextView
+        android:id="@+id/mapX"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/mapY"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"/>
+</LinearLayout><!-- From: file:/C:/Users/semmes/Android-ws/MapCalibrator-master/app/src/main/res/layout/verify_coordinate_dialog.xml -->
